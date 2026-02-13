@@ -114,7 +114,7 @@ export default function EmailPreview() {
             <button
               onClick={() => handleTemplateChange('tracking')}
               className={`px-4 py-2 rounded-lg font-medium transition-colors ${selectedTemplate === 'tracking'
-                ? 'bg-[#015256] text-white'
+                ? 'bg-[#2356A5] text-white'
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                 }`}
             >
@@ -123,7 +123,7 @@ export default function EmailPreview() {
             <button
               onClick={() => handleTemplateChange('orderConfirmation')}
               className={`px-4 py-2 rounded-lg font-medium transition-colors ${selectedTemplate === 'orderConfirmation'
-                ? 'bg-[#015256] text-white'
+                ? 'bg-[#2356A5] text-white'
                 : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                 }`}
             >

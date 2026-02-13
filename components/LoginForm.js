@@ -70,7 +70,7 @@ export default function LoginForm({ onLoginSuccess }) {
             value={formData.username}
             onChange={handleInputChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#015256] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2356A5] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white"
             placeholder="Enter your username"
             disabled={isLoading}
           />
@@ -88,7 +88,7 @@ export default function LoginForm({ onLoginSuccess }) {
             value={formData.password}
             onChange={handleInputChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#015256] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2356A5] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white"
             placeholder="Enter your password"
             disabled={isLoading}
           />
@@ -98,7 +98,7 @@ export default function LoginForm({ onLoginSuccess }) {
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full bg-[#015256] hover:bg-[#014245] disabled:bg-[#015256]/50 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 ease-in-out focus:ring-2 focus:ring-[#015256] focus:ring-offset-2"
+          className="w-full bg-[#2356A5] hover:bg-[#1e3a8a] disabled:bg-[#2356A5]/50 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 ease-in-out focus:ring-2 focus:ring-[#2356A5] focus:ring-offset-2"
         >
           {isLoading ? 'Authenticating...' : 'Authenticate'}
         </button>

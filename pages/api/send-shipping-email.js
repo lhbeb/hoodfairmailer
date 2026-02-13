@@ -163,7 +163,7 @@ export default async function handler(req, res) {
                                 <div style="width: 8px; height: 8px; background-color: #2356A5; border-radius: 50%; display: inline-block;"></div>
                               </td>
                               <td style="vertical-align: middle;">
-                                <div style="color: #015256; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">SHIPPED</div>
+                                <div style="color: #2356A5; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; margin: 0;">SHIPPED</div>
                               </td>
                             </tr>
                           </table>

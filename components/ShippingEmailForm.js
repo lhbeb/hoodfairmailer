@@ -101,7 +101,7 @@ export default function ShippingEmailForm() {
             name="senderEmail"
             value={formData.senderEmail}
             onChange={handleInputChange}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#015256] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2356A5] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white"
             disabled={isLoading}
           >
             <option value="">Random (Auto-Rotate)</option>
@@ -144,7 +144,7 @@ export default function ShippingEmailForm() {
             onChange={handleInputChange}
             required
             rows={3}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#015256] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white resize-none"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2356A5] focus:border-transparent transition duration-200 ease-in-out text-gray-900 bg-white resize-none"
             placeholder="e.g., 123 Main Street, City, State 12345"
             disabled={isLoading}
           />
@@ -193,7 +193,7 @@ export default function ShippingEmailForm() {
           disabled={isLoading}
           className={`w-full py-3 px-4 rounded-lg font-medium text-white transition duration-200 ease-in-out ${isLoading
             ? 'bg-gray-400 cursor-not-allowed'
-            : 'bg-[#015256] hover:bg-[#014245] focus:ring-2 focus:ring-[#015256] focus:ring-offset-2'
+            : 'bg-[#2356A5] hover:bg-[#1e3a8a] focus:ring-2 focus:ring-[#2356A5] focus:ring-offset-2'
             }`}
         >
           {isLoading ? (

@@ -82,7 +82,7 @@ export default function Home() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-teal-50 flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-16 w-16 border-4 border-[#015256] border-t-transparent mx-auto"></div>
+          <div className="animate-spin rounded-full h-16 w-16 border-4 border-[#2356A5] border-t-transparent mx-auto"></div>
           <p className="mt-4 text-slate-600 font-medium">Loading dashboard...</p>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-teal-50 to-slate-50">
       {/* Enhanced Header with Gradient */}
-      <header className="bg-[#015256] shadow-lg">
+      <header className="bg-[#2356A5] shadow-lg">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-5">
             <div className="flex items-center gap-4">
@@ -130,7 +130,7 @@ export default function Home() {
                 className={`
                   hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all
                   ${activeTab === 'preview'
-                    ? 'bg-white text-[#015256] shadow-md ring-2 ring-[#015256] ring-offset-2 ring-offset-[#015256]'
+                    ? 'bg-white text-[#2356A5] shadow-md ring-2 ring-[#2356A5] ring-offset-2 ring-offset-[#2356A5]'
                     : 'bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm'
                   }
                 `}
@@ -177,7 +177,7 @@ export default function Home() {
                             flex items-center gap-2 px-5 py-3 rounded-xl font-medium text-sm
                             transition-all duration-200 transform
                             ${activeTab === tab.id
-                              ? 'bg-[#015256] text-white shadow-lg shadow-[#015256]/30 scale-105'
+                              ? 'bg-[#2356A5] text-white shadow-lg shadow-[#2356A5]/30 scale-105'
                               : 'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-900 hover:shadow-md hover:scale-102'
                             }
                           `}
@@ -201,7 +201,7 @@ export default function Home() {
                             flex items-center gap-2 px-5 py-3 rounded-xl font-medium text-sm
                             transition-all duration-200 transform
                             ${activeTab === tab.id
-                              ? 'bg-[#015256] text-white shadow-lg shadow-[#015256]/30 scale-105'
+                              ? 'bg-[#2356A5] text-white shadow-lg shadow-[#2356A5]/30 scale-105'
                               : 'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-900 hover:shadow-md hover:scale-102'
                             }
                           `}
@@ -225,7 +225,7 @@ export default function Home() {
                             flex items-center gap-2 px-5 py-3 rounded-xl font-medium text-sm
                             transition-all duration-200 transform
                             ${activeTab === tab.id
-                              ? 'bg-[#015256] text-white shadow-lg shadow-[#015256]/30 scale-105'
+                              ? 'bg-[#2356A5] text-white shadow-lg shadow-[#2356A5]/30 scale-105'
                               : 'bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-900 hover:shadow-md hover:scale-102'
                             }
                           `}
