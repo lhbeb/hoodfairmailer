@@ -8,6 +8,7 @@ import RecoveryEmail1Form from '../../components/RecoveryEmail1Form';
 import RecoveryEmail2Form from '../../components/RecoveryEmail2Form';
 import RecoveryEmail3Form from '../../components/RecoveryEmail3Form';
 import AboutHappyDeelForm from '../../components/AboutHappyDeelForm';
+import LocalPickupForm from '../../components/LocalPickupForm';
 import EmailPreview from '../../components/EmailPreview';
 import LoginForm from '../../components/LoginForm';
 
@@ -74,6 +75,7 @@ export default function Home() {
   // Informational Emails (Marketing/Educational)
   const informationalTabs = [
     { id: 'about', label: 'About Us Revibee Email (TBAT)', icon: '🏪' },
+    { id: 'localpickup', label: 'Local Pickup Info', icon: '📍' },
   ];
 
   const allTabs = [...transactionalTabs, ...recoveryTabs, ...informationalTabs];
@@ -338,6 +340,20 @@ export default function Home() {
                     </div>
                   </div>
                   <AboutHappyDeelForm />
+                </div>
+              )}
+              {activeTab === 'localpickup' && (
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-2xl">
+                      📍
+                    </div>
+                    <div>
+                      <h2 className="text-2xl font-bold text-slate-900">Local Pickup Information</h2>
+                      <p className="text-slate-600 text-sm">Send warehouse pickup details to customers</p>
+                    </div>
+                  </div>
+                  <LocalPickupForm />
                 </div>
               )}
               {activeTab === 'preview' && (

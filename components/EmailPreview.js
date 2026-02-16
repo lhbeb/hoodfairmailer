@@ -39,6 +39,11 @@ export default function EmailPreview() {
     about: {
       customerName: 'John Doe',
       customerEmail: 'john.doe@example.com'
+    },
+    localpickup: {
+      customerEmail: 'customer@example.com',
+      productLink: 'https://www.hoodfair.com/product/123',
+      productName: 'Canon EOS R5 Camera'
     }
   };
 
@@ -59,6 +64,8 @@ export default function EmailPreview() {
         endpoint = '/api/preview-abandoned-checkout';
       } else if (templateType === 'about') {
         endpoint = '/api/preview-about-email';
+      } else if (templateType === 'localpickup') {
+        endpoint = '/api/preview-local-pickup';
       }
 
       const data = sampleData[templateType];
@@ -146,6 +153,15 @@ export default function EmailPreview() {
                 }`}
             >
               🛒 Abandoned Checkout
+            </button>
+            <button
+              onClick={() => handleTemplateChange('localpickup')}
+              className={`px-4 py-2 rounded-lg font-medium transition-colors ${selectedTemplate === 'localpickup'
+                ? 'bg-[#2356A5] text-white'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                }`}
+            >
+              📍 Local Pickup Info
             </button>
           </div>
 
