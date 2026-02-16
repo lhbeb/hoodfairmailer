@@ -121,7 +121,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-5">
             <div className="flex items-center gap-4">
-              <h1 className="text-2xl font-bold text-white tracking-tight">Mail Project 2.0</h1>
+              <h1 className="text-2xl font-bold text-white tracking-tight">Hoodfair Mailer 3.0</h1>
             </div>
 
             <div className="flex items-center gap-4">
@@ -359,7 +359,7 @@ export default function Home() {
 
           {/* Footer Info */}
           <div className="mt-6 text-center text-slate-500 text-sm">
-            <p>Mail Project 2.0 • Powered by Next.js & Nodemailer</p>
+            <p>Hoodfair Mailer 3.0 • Powered by Next.js & Nodemailer</p>
           </div>
         </div>
       </div>

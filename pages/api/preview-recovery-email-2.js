@@ -130,11 +130,11 @@ export default async function handler(req, res) {
                 
                 <!-- Header -->
                 <tr class="header">
-                  <td style="background-color: #2356A5; padding: 40px 32px; text-align: center;">
+                  <td style="background-color: #059669; padding: 40px 32px; text-align: center;">
                     <h1 style="color: #ffffff; font-size: 28px; font-weight: 700; margin: 0 0 12px 0; line-height: 1.2;">
                       We saved your cart for you! 💚
                     </h1>
-                    <p style="color: #FEBB3B; font-size: 16px; margin: 0; line-height: 1.5; font-weight: 500;">
+                    <p style="color: #ecfdf5; font-size: 16px; margin: 0; line-height: 1.5; font-weight: 500;">
                       No pressure - just a friendly reminder
                     </p>
                   </td>
@@ -145,7 +145,7 @@ export default async function handler(req, res) {
                   <td class="content-cell" style="padding: 32px 24px;">
                     
                     <!-- Abandoned Item Card -->
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #FFF4D9; border: 1px solid #FFE082; border-radius: 16px; margin-bottom: 32px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #d1fae5; border: 1px solid #6ee7b7; border-radius: 16px; margin-bottom: 32px;">
                       <tr>
                         <td style="padding: 32px; text-align: center;">
                           <!-- Product Image or Icon -->
@@ -171,8 +171,8 @@ export default async function handler(req, res) {
                           <!-- CTA Button -->
                           <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center">
                             <tr>
-                              <td style="background-color: #2356A5; border-radius: 8px; box-shadow: 0 4px 6px rgba(16, 185, 129, 0.2);">
-                                <a href="${checkoutUrl}" style="display: inline-block; padding: 16px 32px; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 16px; border-radius: 8px; background-color: #2356A5; border: 1px solid #2356A5;">
+                              <td style="background-color: #10b981; border-radius: 8px; box-shadow: 0 4px 6px rgba(16, 185, 129, 0.2);">
+                                <a href="${checkoutUrl}" style="display: inline-block; padding: 16px 32px; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 16px; border-radius: 8px; background-color: #10b981; border: 1px solid #10b981;">
                                   <span style="color: #ffffff;">View My Cart</span>
                                 </a>
                               </td>
@@ -190,7 +190,7 @@ export default async function handler(req, res) {
                           <p style="margin: 0 0 8px 0;"><strong>Why Hoodfair?</strong></p>
                           <p style="margin: 0 0 16px 0;">We inspect every item to ensure quality. 30-day returns. Fast shipping.</p>
                           <p style="margin: 0; color: #6b7280; font-size: 14px;">
-                            Questions? Reply here or <a href="https://wa.me/17176484487" style="color: #2356A5; text-decoration: none;">WhatsApp +1-717-648-4487</a>.
+                            Questions? Reply here or <a href="https://wa.me/17176484487" style="color: #059669; text-decoration: none;">WhatsApp +1-717-648-4487</a>.
                           </p>
                         </td>
                       </tr>
@@ -209,12 +209,12 @@ export default async function handler(req, res) {
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" style="margin-bottom: 24px;">
                       <tr>
                         <td style="padding: 8px 0;">
-                          <a href="mailto:support@hoodfair.com" style="color: #2356A5; text-decoration: none; font-weight: 500; font-size: 14px; display: block;">📧 Email Support</a>
+                          <a href="mailto:support@hoodfair.com" style="color: #059669; text-decoration: none; font-weight: 500; font-size: 14px; display: block;">📧 Email Support</a>
                         </td>
                       </tr>
                       <tr>
                         <td style="padding: 8px 0;">
-                          <a href="tel:+17176484487" style="color: #2356A5; text-decoration: none; font-weight: 500; font-size: 14px; display: block;">📞 +17176484487</a>
+                          <a href="tel:+17176484487" style="color: #059669; text-decoration: none; font-weight: 500; font-size: 14px; display: block;">📞 +17176484487</a>
                         </td>
                       </tr>
                     </table>

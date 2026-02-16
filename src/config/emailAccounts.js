@@ -5,7 +5,7 @@ import nodemailer from 'nodemailer';
 const emailAccounts = [
   {
     user: 'contacthoodfair@gmail.com',
-    pass: 'adse ammq dkmi eedu', // App Password
+    pass: 'gjre wbjt qpai fyed', // App Password
   }
 ];
 
